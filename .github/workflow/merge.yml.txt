@@ -1,0 +1,12 @@
+name: Simple GitHub Action
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Success Message
+        run: echo "GitHub Actions workflow executed successfully!"
